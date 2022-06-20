@@ -1,0 +1,13 @@
+on: [push]
+
+jobs:
+  ci-success:
+    name: ci
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: CI succeeded
+        env:
+          GITHUB_TOKEN: ${{ secrets.TOKEN }}
+        run: |
+          ./test.sh
