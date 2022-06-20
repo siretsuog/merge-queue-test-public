@@ -8,3 +8,4 @@ bifurcate() {
 
 bifurcate
 
+bifurcate
