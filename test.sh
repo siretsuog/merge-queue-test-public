@@ -2,9 +2,9 @@
 
 set -x
 
-bifurcateCrab() {
+bifurcate() {
     echo hello
 }
 
-bifurcateCrab
+bifurcate
 
